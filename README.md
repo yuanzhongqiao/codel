@@ -1,64 +1,68 @@
-<div align="center">
-  <img src="./.github/logo.png" width="200" />
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer" href="/semanser/codel/blob/main/.github/logo.png"><img src="/semanser/codel/raw/main/.github/logo.png" width="200" style="max-width: 100%;"></a>
 </div>
-
-<div align="center">Fully autonomous AI Agent that can perform complicated tasks and projects using terminal, browser, and editor.</div>
-
-<img src="./.github/demo.png" />
-
-Discord: https://discord.gg/uMaGSHNjzc
-
-# Features
-- 🔓 Secure. Everything is running in a sandboxed Docker environment.
-- 🤖 Autonomous. Automatically detects the next step and performs it.
-- 🔍 Built-in browser. Fetches latest information from the web (tutorials, docs, etc.) if needed.
-- 📙 Built-in text editor. View all the modified files right in your browser.
-- 🧠 All the history commands and outputs are saved in the PostgreSQL database.
-- 📦 Automatic Docker-image picker based on the user task.
-- 🤳 Self-hosted
-- 💅 Modern UI
-
-# How to run
-## Prerequisites
-- golang
-- nodejs
-- docker
-
-## Environment variables
-Add to `.env` file in the `backend` folder.
-
-### Backend
-- `OPEN_AI_KEY` - OpenAI API key
-- `DATABASE_URL` - PostgreSQL database URL (eg. `postgres://user:password@localhost:5432/database`)
-- `DOCKER_HOST` - Docker SDK API (eg. `DOCKER_HOST=unix:///Users/<my-user>/Library/Containers/com.docker.docker/Data/docker.raw.sock`) [more info](https://stackoverflow.com/a/62757128/5922857)
-
-Optional:
-- `OPEN_AI_MODEL` - OpenAI model (default: `gpt-4-0125-preview`). The list of supported OpenAI models can be found [here](https://pkg.go.dev/github.com/sashabaranov/go-openai#pkg-constants).
-### Frontend
-Frontend environment variables can be set by creating a `.env.local` file in the `frontend` folder.
-- `VITE_API_URL` - Backend API URL. *Omit* the URL scheme (e.g., `localhost:8080` *NOT* `http://localhost:8080`).
-
-## Steps
-- Run `go run .` in `backend` folder
-- Run `yarn dev` in `frontend` folder
-- Open your browser and enjoy!
-
-# Roadmap
-- [x] Agent API
-- [x] Frontend
-- [x] Backend API + PostgreSQL integration
-- [x] Docker runner
-- [x] Terminal output streaming
-- [ ] Browser output streaming (in progress)
-- [ ] Editor output
-- [ ] SWE-bench
-- [ ] Better way to run it (eg a single docker command)
-
-
-
-# Credits
-This project wouldn't be possible without:
-- https://arxiv.org/abs/2308.00352
-- https://arxiv.org/abs/2403.08299
-- https://www.cognition-labs.com/introducing-devin
-- https://github.com/semanser/JsonGenius
+<div align="center" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完全自主的人工智能代理，可以使用终端、浏览器和编辑器执行复杂的任务和项目。</font></font></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/semanser/codel/blob/main/.github/demo.png"><img src="/semanser/codel/raw/main/.github/demo.png" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不和谐： https: </font></font><a href="https://discord.gg/uMaGSHNjzc" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//discord.gg/uMaGSHNjzc</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征</font></font></h1><a id="user-content-features" class="anchor" aria-label="永久链接：特点" href="#features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔓安全。</font><font style="vertical-align: inherit;">一切都在沙盒 Docker 环境中运行。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤖 自治。</font><font style="vertical-align: inherit;">自动检测下一步并执行。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔍内置浏览器。</font><font style="vertical-align: inherit;">如果需要，从网络获取最新信息（教程、文档等）。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📙 内置文本编辑器。</font><font style="vertical-align: inherit;">直接在浏览器中查看所有修改的文件。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🧠 所有历史命令和输出都保存在 PostgreSQL 数据库中。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📦 基于用户任务的自动 Docker 镜像选择器。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤳 自托管</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💅 现代用户界面</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何跑</font></font></h1><a id="user-content-how-to-run" class="anchor" aria-label="永久链接： 如何运行" href="#how-to-run"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">先决条件</font></font></h2><a id="user-content-prerequisites" class="anchor" aria-label="永久链接：先决条件" href="#prerequisites"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">戈兰</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">节点js</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">泊坞窗</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">环境变量</font></font></h2><a id="user-content-environment-variables" class="anchor" aria-label="永久链接：环境变量" href="#environment-variables"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加到文件夹</font></font><code>.env</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中的文件</font></font><code>backend</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">后端</font></font></h3><a id="user-content-backend" class="anchor" aria-label="永久链接：后端" href="#backend"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><code>OPEN_AI_KEY</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- OpenAI API 密钥</font></font></li>
+<li><code>DATABASE_URL</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- PostgreSQL 数据库 URL（例如</font></font><code>postgres://user:password@localhost:5432/database</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></li>
+<li><code>DOCKER_HOST</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- Docker SDK API（例如</font></font><code>DOCKER_HOST=unix:///Users/&lt;my-user&gt;/Library/Containers/com.docker.docker/Data/docker.raw.sock</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font><a href="https://stackoverflow.com/a/62757128/5922857" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多信息</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选修的：</font></font></p>
+<ul dir="auto">
+<li><code>OPEN_AI_MODEL</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- OpenAI 模型（默认</font></font><code>gpt-4-0125-preview</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：）。</font></font><a href="https://pkg.go.dev/github.com/sashabaranov/go-openai#pkg-constants" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可在此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到支持的 OpenAI 模型列表</font><font style="vertical-align: inherit;">。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">前端</font></font></h3><a id="user-content-frontend" class="anchor" aria-label="永久链接：前端" href="#frontend"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以通过</font></font><code>.env.local</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>frontend</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件夹中创建文件来设置前端环境变量。</font></font></p>
+<ul dir="auto">
+<li><code>VITE_API_URL</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 后端API URL。</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">省略</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">URL 方案（例如</font></font><code>localhost:8080</code> <em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NOT</font></font></em> <code>http://localhost:8080</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">脚步</font></font></h2><a id="user-content-steps" class="anchor" aria-label="永久链接：步骤" href="#steps"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"></font><code>go run .</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>backend</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件夹中</font><font style="vertical-align: inherit;">运行</font></font></li>
+<li><font style="vertical-align: inherit;"></font><code>yarn dev</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>frontend</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件夹中</font><font style="vertical-align: inherit;">运行</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打开浏览器并享受吧！</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路线图</font></font></h1><a id="user-content-roadmap" class="anchor" aria-label="永久链接：路线图" href="#roadmap"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代理接口</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">前端</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">后端 API + PostgreSQL 集成</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Docker 运行者</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">终端输出流</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器输出流（正在进行中）</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑器输出</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SWE-长凳</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更好的运行方式（例如单个 docker 命令）</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">制作人员</font></font></h1><a id="user-content-credits" class="anchor" aria-label="永久链接：学分" href="#credits"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果没有：这个项目就不可能实现：</font></font></p>
+<ul dir="auto">
+<li><a href="https://arxiv.org/abs/2308.00352" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://arxiv.org/abs/2308.00352</font></font></a></li>
+<li><a href="https://arxiv.org/abs/2403.08299" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://arxiv.org/abs/2403.08299</font></font></a></li>
+<li><a href="https://www.cognition-labs.com/introducing-devin" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.cognition-labs.com/introducing-devin</font></font></a></li>
+<li><a href="https://github.com/semanser/JsonGenius"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/semanser/JsonGenius</font></font></a></li>
+</ul>
+</article></div>
