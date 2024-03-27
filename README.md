@@ -1,5 +1,5 @@
 <div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div align="center" dir="auto">
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/semanser/codel/blob/main/.github/logo.png"><img src="/semanser/codel/raw/main/.github/logo.png" width="200" style="max-width: 100%;"></a>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/semanser/codel/blob/main/.github/logo.png"><img src="https://github.com/semanser/codel/raw/main/.github/logo.png" width="200" style="max-width: 100%;"></a>
 </div>
 <div align="center" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完全自主的人工智能代理，可以使用终端、浏览器和编辑器执行复杂的任务和项目。</font></font></div>
 <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/semanser/codel/blob/main/.github/demo.png"><img src="https://github.com/semanser/codel/raw/main/.github/demo.png" style="max-width: 100%;"></a></p>
